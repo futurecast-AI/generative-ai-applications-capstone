@@ -1,0 +1,21 @@
+{
+  "seed": 20261119,
+  "sample_seed": 20261120,
+  "latent_dimensions": 16,
+  "hidden_units": 256,
+  "batch_size": 256,
+  "epochs": 10,
+  "learning_rate": 0.001,
+  "kl_coefficient": 1,
+  "optimizer": "Adam",
+  "betas": [
+    0.9,
+    0.999
+  ],
+  "eps": 1e-08,
+  "weight_decay": 0,
+  "foreach": false,
+  "device": "cpu",
+  "threads": 2,
+  "parameter_count": 415024
+}

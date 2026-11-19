@@ -1,0 +1,32 @@
+{
+  "task": "unconditional MNIST digit image generation",
+  "parameter_count": 415024,
+  "train_count": 55000,
+  "validation_count": 5000,
+  "test_count": 10000,
+  "first_validation_total": 148.6733316418171,
+  "final_validation_total": 97.27427651557923,
+  "test": {
+    "reconstruction_bce": 70.34817633857728,
+    "kl": 25.002267742538454,
+    "posterior_mean_mse": 0.02414663647877751,
+    "total": 95.35044408111573
+  },
+  "sample_count": 64,
+  "nearest_rmse_min": 0.13600508868694305,
+  "nearest_rmse_median": 0.20718252658843994,
+  "nearest_rmse_max": 0.2622978091239929,
+  "unique_quantized_generated_means": 64,
+  "reconstruction_test_indices": [
+    3,
+    2,
+    1,
+    18,
+    4,
+    8,
+    11,
+    0,
+    61,
+    7
+  ]
+}
