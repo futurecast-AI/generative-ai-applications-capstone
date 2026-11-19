@@ -1,0 +1,25 @@
+{
+  "official_training_shape": [
+    60000,
+    28,
+    28
+  ],
+  "official_test_shape": [
+    10000,
+    28,
+    28
+  ],
+  "training_count": 55000,
+  "validation_count": 5000,
+  "test_count": 10000,
+  "threshold": 0.5,
+  "training_index_sha256": "f72ded1f3bcad512211afec7bc9c456a2c087ca5922bba91745485987ad7a5f3",
+  "validation_index_sha256": "98eee46cf7cd691eb548d9e8b1008dc10e6cebbbecd74bbf6ff7b657ccbdf5cd",
+  "raw_training_repeats": 0,
+  "raw_test_repeats": 0,
+  "raw_test_matching_official_train": 0,
+  "binarized_validation_matching_training": 3,
+  "binarized_test_matching_training": 8,
+  "original_dtype": "uint8",
+  "model_dtype": "torch.float32"
+}
